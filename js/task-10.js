@@ -34,7 +34,7 @@ const fCreate = (event) => {
   divFather.append(...divArray);
 };
 const fDestory = () => {
-  divFather.innerHTML = '<div id="boxes"></div>';
+  divFather.innerHTML = "";
 };
 create.addEventListener("click", fCreate);
 destroy.addEventListener("click", fDestory);
