@@ -13,6 +13,7 @@ const handleSubmit = (event) => {
   }
   console.log(`Email: ${data.email}, Password: ${data.password}`);
   event.currentTarget.reset();
+  console.log(data);
 };
 
 form.addEventListener("submit", handleSubmit);
